@@ -1,0 +1,2 @@
+# robogoalie is a project to build a robotic ice hockey goaltender. The system will use an IR steroecamera to track the puck,
+# and a system of limbs will move to block it from entering the net. More to come.
