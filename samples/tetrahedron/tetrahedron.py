@@ -16,7 +16,8 @@ def make_edges(edge_list,link_list,current_link):
     else:
         # if vertices remain to be connected, connect them to the current link
         for i in range (current_link+1,len(link_list)):
-            edge_list.append(pascale.curve.Line.from_end_points(link_list                                   [current_link].end,link_list[i].end))
+            edge_list.append(pascale.curve.Line.from_end_points(link_list
+                             [current_link].end,link_list[i].end))
     # once edges have been made to this link / vertex do so for remaining links
     return make_edges(edge_list,link_list,current_link+1)
 
